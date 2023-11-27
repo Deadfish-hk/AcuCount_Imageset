@@ -6,7 +6,9 @@ The *dataset* folder contains the raw images for the *training set*, and the *va
 
 The *research* folder contains the validations records infered by the our Oriented R-CNN model. We have also provided the sample config file and checkpoint file for the Oriented R-CNN model.
 
-There is also a *testing* folder inside the *dataset* folder containing the testing images and annotations. This *testing* set is provided as a quick reference to ensure that the model training is properly converged. The *testing* dataset is **not** intended for validation purpose and therefore not reported in our AcuCount paper. 
+There is also a *testing* folder inside the *dataset* folder containing the testing images and annotations. This *testing* set is provided as a quick reference to ensure that the model training is properly converged. The *testing* dataset is **not** intended for validation purpose and therefore not reported in our AcuCount paper.
+
+We have also carried out an ablation experiment on different NMS and aspect ratio settings. The full record is avabile on [Google Drive](https://drive.google.com/drive/folders/1wTaLVpOjawfp6IXa_BR2L_zufGuKYRNF?usp=drive_link). You are also welcomed to train and test your own model by changing our config settings!
 
 ## Model Training
 
@@ -29,6 +31,10 @@ Follow the instructions to check the config settings or modify them for you own 
 Execute the `train_detector` cell to initate the training. If you want to monitor the training progress, you can run the tensorboard to check up on the learning losses.
 
 Type Ctrl+C to terminate the training. You may find your inference graph under <code>./tutorial_exps</code> folder.
+
+### Model Vaildation
+
+Import the counting function and the logging module, and thus you can perform an out-of-box inference on the validation dataset. 
 
 ## Telegram object_detection bot
 
