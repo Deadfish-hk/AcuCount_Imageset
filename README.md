@@ -48,9 +48,9 @@ This script uses `logging` modlule for recording the inward/outward timestamp. P
 
 ## Now try it yourself!
 
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Deadfish-hk/AcuCount_Imageset/blob/main/MMrotate_training_github.ipynb#) Access the model training notebook.
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Deadfish-hk/AcuCount_imageset/blob/main/MMrotate_training_github_v0_11.ipynb) Access the model training notebook.
 
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Deadfish-hk/AcuCount_Imageset/blob/main/telegram_bot_colab_mmrotate_github.ipynb) Access the telegram-detection bot.
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Deadfish-hk/AcuCount_imageset/blob/main/telegram_bot_colab_mmrotate_github.ipynb) Access the telegram-detection bot.
  
  ## Acknowledgement
  
