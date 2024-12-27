@@ -10,6 +10,8 @@ There is also a *testing* folder inside the *dataset* folder containing the test
 
 We have also carried out an ablation experiment on different NMS and aspect ratio settings. The full record is avabile on [Google Drive](https://drive.google.com/drive/folders/1wTaLVpOjawfp6IXa_BR2L_zufGuKYRNF?usp=drive_link). You are also welcomed to train and test your own model by changing our config settings!
 
+This repository is the offical implementation of the paper [A novel deep learning based cloud service system for automated acupuncture needle counting: a strategy to improve acupuncture safety](https://doi.org/10.1016/j.dcmed.2024.04.005).
+
 ## Model Training
 
 The model_training.ipynb is modified on top of the Colab tutorial provided in the [MMrotate github page](https://github.com/open-mmlab/mmrotate).
